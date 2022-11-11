@@ -65,11 +65,26 @@
      
 * #### 4.2. Architecture (code available at /GAN_Model.py):
 
-      *
+     *
 
-* #### 4.3. Training:
+* #### 4.3. Hyperparameteres:
 
-      *
+    * Loss: Wasserstein Hinge Loss (based on: The TensorFlow GAN Authors, Losses that are useful for training GANs, https://github.com/tensorflow/gan/blob/master/tensorflow_gan/python/losses/losses_impl.py)
+    
+    * Optimizer - Adam (Adaptive Moment Estimation):
+    
+       * Parameters as recommended by: Isola, Phillip, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. ‘Image-to-Image Translation with Conditional Adversarial Networks’. ArXiv:1611.07004 [Cs], 26 November 2018. http://arxiv.org/abs/1611.07004.
+      
+    * Batchsize - 1.
+    
+    * Generator / discriminator update rates - 1.
+
+* #### 4.4. Training (training log is available at /Training_Log.csv):
+
+    *
+    
+     ![training_loss](https://github.com/Ma-Marcinowski//Generative-Model/blob/main/Training_loss.png "Training_loss")
+
 
 ### 5. Results
 
@@ -81,6 +96,6 @@
 
 * #### 6.2. Discrite cosine transform (DCT) may be utilized to detect deepfakes, however, the author found no artifacts that could undoubtedly prove the generated signatures as fake. 
 
-* #### 6.3. Results were averaged over validation results and corresponding true signatures.
+* #### 6.3. Spectra were averaged over validation results (Fake Signatures) and corresponding true signatures (True Signatures).
 
-     ![dct](https://github.com/Ma-Marcinowski//Generative-Model/blob/main/DCT.png "DCT")
+     ![spectra](https://github.com/Ma-Marcinowski//Generative-Model/blob/main/Spectra.png "Spectra")
