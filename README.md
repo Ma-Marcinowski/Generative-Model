@@ -87,8 +87,10 @@
 
 
 ### 5. Results
+
      
      ![results](https://github.com/Ma-Marcinowski/Generative-Model/blob/main/Results.png "Results")
+     
 
 ### 6. Discrite cosine transform for deepfake detection (code available at /DCT.py)
 
