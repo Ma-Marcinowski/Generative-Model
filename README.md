@@ -83,12 +83,12 @@
 
     *
     
-     ![training_loss](https://github.com/Ma-Marcinowski//Generative-Model/blob/main/Training_loss.png "Training_loss")
+     ![training_loss](https://github.com/Ma-Marcinowski/Generative-Model/blob/main/Training_loss.png "Training_loss")
 
 
 ### 5. Results
 
-     ![results](https://github.com/Ma-Marcinowski//Generative-Model/blob/main/Results.png "Results")
+     ![results](https://github.com/Ma-Marcinowski/Generative-Model/blob/main/Results.png "Results")
 
 ### 6. Discrite cosine transform for deepfake detection (code available at /DCT.py)
 
@@ -98,4 +98,4 @@
 
 * #### 6.3. Spectra were averaged over validation results (Fake Signatures) and corresponding true signatures (True Signatures).
 
-     ![spectra](https://github.com/Ma-Marcinowski//Generative-Model/blob/main/Spectra.png "Spectra")
+     ![spectra](https://github.com/Ma-Marcinowski/Generative-Model/blob/main/Spectra.png "Spectra")
