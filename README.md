@@ -1,1 +1,1 @@
-# Generative-model
+# Generative-Model
