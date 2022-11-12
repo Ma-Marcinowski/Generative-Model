@@ -67,9 +67,9 @@
     
 ### 3. Dataframing (code available at /Dataframing/Dataframing.py):
 
-    * During training, each writer is represented by his/hers true signatures and their corresponding edges (target and input data), and by his/hers averaged signatures (mask data).
-    * During validation, there are only two target-input pairs per writer, both of the same signature, but one with augmented input.
-    * During testing, all input signatures are augmented.
+* #### During training, each writer is represented by his/hers true signatures and their corresponding edges (target and input data), and by his/hers averaged signatures (mask data).
+* #### During validation, there are only two target-input pairs per writer, both of the same signature, but one with augmented input.
+* #### During testing, all input signatures are augmented.
 
 ### 4. Model
 
@@ -116,10 +116,10 @@
 
 ### 6. Discrite cosine transform for deepfake detection (code available at /DCT/DCT.py)
 
-    * Based on the paper: Frank, Joel, Thorsten Eisenhofer, Lea Schönherr, Asja Fischer, Dorothea Kolossa, and Thorsten Holz. ‘Leveraging Frequency Analysis for Deep Fake Image Recognition’. arXiv, 26 June 2020. https://doi.org/10.48550/arXiv.2003.08685.
+* #### Based on the paper: Frank, Joel, Thorsten Eisenhofer, Lea Schönherr, Asja Fischer, Dorothea Kolossa, and Thorsten Holz. ‘Leveraging Frequency Analysis for Deep Fake Image Recognition’. arXiv, 26 June 2020. https://doi.org/10.48550/arXiv.2003.08685.
 
-    * Discrite cosine transform (DCT) may be utilized to detect deepfakes, however, the author found no artifacts that could undoubtedly prove the generated signatures as fake. 
+* #### Discrite cosine transform (DCT) may be utilized to detect deepfakes, however, the author found no artifacts that could undoubtedly prove the generated signatures as fake. 
     
-    * Spectra were averaged over validation results (Fake Signatures) and corresponding true signatures (True Signatures).
+* #### Spectra were averaged over validation results (Fake Signatures) and corresponding true signatures (True Signatures).
 
      ![spectra](https://github.com/Ma-Marcinowski/Generative-Model/blob/main/DCT/Spectra.png "Spectra")
