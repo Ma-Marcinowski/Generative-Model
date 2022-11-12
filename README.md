@@ -66,10 +66,10 @@
     * Average of preprocessed/target images (separately for each writer).
     
 ### 3. Dataframing (code available at /Dataframing/Dataframing.py):
-
-* #### During training, each writer is represented by his/hers true signatures and their corresponding edges (target and input data), and by his/hers averaged signatures (mask data).
-* ##### During validation, there are only two target-input pairs per writer, both of the same signature, but one with augmented input.
-* ###### During testing, all input signatures are augmented.
+* ####
+    * During training, each writer is represented by his/hers true signatures and their corresponding edges (target and input data), and by his/hers averaged signatures (mask data).
+    * During validation, there are only two target-input pairs per writer, both of the same signature, but one with augmented input.
+    * During testing, all input signatures are augmented.
 
 ### 4. Model
 
